@@ -1,0 +1,57 @@
+{
+  "WPFInstall": [
+    "WPFInstallanydesk",
+    "WPFInstallflameshot",
+    "WPFInstalllibreoffice",
+    "WPFInstallpdf24creator",
+    "WPFInstallfoxpdfreader",
+    "WPFInstallvlc"
+  ],
+  "Install": [
+    {
+      "winget": "AnyDesk.AnyDesk",
+      "choco": "anydesk"
+    },
+    {
+      "winget": "Flameshot.Flameshot",
+      "choco": "flameshot"
+    },
+    {
+      "winget": "TheDocumentFoundation.LibreOffice",
+      "choco": "libreoffice-fresh"
+    },
+    {
+      "winget": "geeksoftwareGmbH.PDF24Creator",
+      "choco": "pdf24"
+    },
+    {
+      "winget": "Foxit.FoxitReader",
+      "choco": "foxitreader"
+    },
+    {
+      "winget": "VideoLAN.VLC",
+      "choco": "vlc"
+    }
+  ],
+  "WPFFeature": [
+    "WPFFeaturenfs",
+    "WPFFeatureshyperv",
+    "WPFFeaturewsl"
+  ],
+  "WPFTweaks": [
+    "WPFTweaksRestorePoint",
+    "WPFTweaksRemoveHome",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksRemoveCopilot",
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksStorage",
+    "WPFTweaksDiskCleanup",
+    "WPFTweaksHiber",
+    "WPFTweaksDisableNotifications",
+    "WPFTweaksDisableExplorerAutoDiscovery",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksRemoveGallery",
+    "WPFTweaksPowershell7Tele",
+    "WPFTweaksEdgeDebloat"
+  ]
+}

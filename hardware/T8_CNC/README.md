@@ -1,4 +1,6 @@
-Default values of the original board that comes with the CNC.
+# T8 CNC
+
+## Default values of the original board that comes with the CNC.
 
 **`$$ (view Grbl settings)`**
 

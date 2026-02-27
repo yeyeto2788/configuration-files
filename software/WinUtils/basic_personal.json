@@ -1,0 +1,157 @@
+{
+  "WPFInstall": [
+    "WPFInstallAdvancedRenamer",
+    "WPFInstallvscodium",
+    "WPFInstallnaps2",
+    "WPFInstallpyenvwin",
+    "WPFInstallanydesk",
+    "WPFInstallflameshot",
+    "WPFInstallbitwarden",
+    "WPFInstallrufus",
+    "WPFInstalllibreoffice",
+    "WPFInstallfreecad",
+    "WPFInstallinkscape",
+    "WPFInstallgit",
+    "WPFInstalllogseq",
+    "WPFInstallputty",
+    "WPFInstallchromium",
+    "WPFInstallangryipscanner",
+    "WPFInstalllocalsend",
+    "WPFInstallpdf24creator",
+    "WPFInstallfoxpdfreader",
+    "WPFInstallstarship",
+    "WPFInstallvscode",
+    "WPFInstalldockerdesktop",
+    "WPFInstallvlc",
+    "WPFInstallkrita",
+    "WPFInstallpiimager",
+    "WPFInstallfirefox"
+  ],
+  "Install": [
+    {
+      "winget": "HulubuluSoftware.AdvancedRenamer",
+      "choco": "advanced-renamer"
+    },
+    {
+      "winget": "VSCodium.VSCodium",
+      "choco": "vscodium"
+    },
+    {
+      "winget": "Cyanfish.NAPS2",
+      "choco": "naps2"
+    },
+    {
+      "winget": "na",
+      "choco": "pyenv-win"
+    },
+    {
+      "winget": "AnyDesk.AnyDesk",
+      "choco": "anydesk"
+    },
+    {
+      "winget": "Flameshot.Flameshot",
+      "choco": "flameshot"
+    },
+    {
+      "winget": "Bitwarden.Bitwarden",
+      "choco": "bitwarden"
+    },
+    {
+      "winget": "Rufus.Rufus",
+      "choco": "rufus"
+    },
+    {
+      "winget": "TheDocumentFoundation.LibreOffice",
+      "choco": "libreoffice-fresh"
+    },
+    {
+      "winget": "FreeCAD.FreeCAD",
+      "choco": "freecad"
+    },
+    {
+      "winget": "Inkscape.Inkscape",
+      "choco": "inkscape"
+    },
+    {
+      "winget": "Git.Git",
+      "choco": "git"
+    },
+    {
+      "winget": "Logseq.Logseq",
+      "choco": "logseq"
+    },
+    {
+      "winget": "PuTTY.PuTTY",
+      "choco": "putty"
+    },
+    {
+      "winget": "Hibbiki.Chromium",
+      "choco": "chromium"
+    },
+    {
+      "winget": "angryziber.AngryIPScanner",
+      "choco": "angryip"
+    },
+    {
+      "winget": "LocalSend.LocalSend",
+      "choco": "localsend.install"
+    },
+    {
+      "winget": "geeksoftwareGmbH.PDF24Creator",
+      "choco": "pdf24"
+    },
+    {
+      "winget": "Foxit.FoxitReader",
+      "choco": "foxitreader"
+    },
+    {
+      "winget": "starship",
+      "choco": "starship"
+    },
+    {
+      "winget": "Microsoft.VisualStudioCode",
+      "choco": "vscode"
+    },
+    {
+      "winget": "Docker.DockerDesktop",
+      "choco": "docker-desktop"
+    },
+    {
+      "winget": "VideoLAN.VLC",
+      "choco": "vlc"
+    },
+    {
+      "winget": "KDE.Krita",
+      "choco": "krita"
+    },
+    {
+      "winget": "RaspberryPiFoundation.RaspberryPiImager",
+      "choco": "rpi-imager"
+    },
+    {
+      "winget": "Mozilla.Firefox",
+      "choco": "firefox"
+    }
+  ],
+  "WPFFeature": [
+    "WPFFeaturenfs",
+    "WPFFeatureshyperv",
+    "WPFFeaturewsl"
+  ],
+  "WPFTweaks": [
+    "WPFTweaksRestorePoint",
+    "WPFTweaksRemoveHome",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksRemoveCopilot",
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksStorage",
+    "WPFTweaksDiskCleanup",
+    "WPFTweaksHiber",
+    "WPFTweaksDisableNotifications",
+    "WPFTweaksDisableExplorerAutoDiscovery",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksRemoveGallery",
+    "WPFTweaksPowershell7Tele",
+    "WPFTweaksEdgeDebloat"
+  ]
+}
