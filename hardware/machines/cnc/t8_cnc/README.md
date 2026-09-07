@@ -1,6 +1,34 @@
 # T8 CNC
 
-## Default values of the original board that comes with the CNC.
+**Description:** GRBL firmware and default settings for the T8 CNC machine.
+
+## Source / Version
+
+- Type: machine (CNC)
+- Firmware/App version: Grbl v0.9i / v0.9j (`atmega328p`, 16MHz, 115200 baud)
+- Last updated: 2026-09-07
+
+## Files
+
+| File | Description |
+| ---- | ----------- |
+| `hex_files/default_grbl/grbl_v0_9i_atmega328p_16mhz_115200.hex` | Grbl 0.9i firmware. |
+| `hex_files/default_grbl/grbl_v0_9j_atmega328p_16mhz_115200.hex` | Grbl 0.9j firmware. |
+
+## Backup
+
+Grbl settings are dumped from the controller over serial using the `$$`, `$#`, `$G`,
+`$I`, and `$N` commands (see below).
+
+## Restore
+
+1. Flash the desired `.hex` from `hex_files/default_grbl/` to the `atmega328p` board.
+2. Re-apply settings over serial (e.g. with `$100=1600.000`) using the values recorded
+   below, or restore from a saved `$$` dump if one is added to this folder.
+
+## Notes
+
+### Default values of the original board that came with the CNC
 
 **`$$ (view Grbl settings)`**
 
@@ -59,7 +87,6 @@ $132=50.000 (z max travel, mm)
 ```
 [G0 G54 G17 G21 G91 G94 M0 M5 M9 T0 F0.]
 ```
-
 
 **`$I (view build info)`**
 
